@@ -1,7 +1,7 @@
 import { Redirect, Route } from 'react-router-dom';
 
 function PublicRoute({ children, ...routeProps }) {
-  const profile = true;
+  const profile = false;
 
   if (profile) {
     return <Redirect to="/" />;
