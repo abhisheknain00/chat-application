@@ -28,11 +28,10 @@ const Top = () => {
         </h4>
 
         <ButtonToolbar className="ws-nowrap">todo</ButtonToolbar>
-
-        <div className="d-flex justify-content-between align-items-center">
-          <span>todo</span>
-          <RoomInfoBtnModal />
-        </div>
+      </div>
+      <div className="d-flex justify-content-between align-items-center">
+        <span>todo</span>
+        <RoomInfoBtnModal />
       </div>
     </div>
   );
