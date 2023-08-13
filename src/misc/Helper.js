@@ -11,7 +11,7 @@ export function getNameInitials(name) {
 export function transformToArrWithId(snapVal) {
   return snapVal
     ? Object.keys(snapVal).map(roomId => {
-        return { ...snapVal[roomId], Id: roomId };
+        return { ...snapVal[roomId], id: roomId };
       })
     : [];
 }
