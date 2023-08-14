@@ -8,7 +8,7 @@ const MAX_FILE_SIZE = 1000 * 1024 * 5;
 
 const AttachmentBtnModal = ({ afterUpload }) => {
   const { isOpen, open, close } = useModelState();
-  const { chatId } = useParams;
+  const { chatId } = useParams();
 
   const [fileList, setFileList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
